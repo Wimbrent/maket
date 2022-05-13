@@ -1,0 +1,85 @@
+.seventh_frame{
+    position: absolute;
+    width: 1440px;
+    height: 378px;
+    left: calc(50% - 1440px/2);
+    top: 2877px;
+    background: #EBEBEB;
+    border-radius: 0px;
+}
+
+.company_names{
+    position: absolute;
+    width: 1440px;
+    height: 174.25px;
+    left: calc(50% - 1440px/2);
+    top: calc(50% - 174.25px/2 - 101.83px);
+}
+
+.general_box_params{
+    position: absolute;
+    height: 9px;
+    width: 9px;
+    top: calc(50% - 9px/2 + 0.33px);
+    background: #99823D;
+}
+
+.first_company_name_box_element{
+    left: 23.82%;
+    right: 75.56%;
+}
+
+.second_company_name_box_element{
+    left: 41.39%;
+    right: 57.99%;
+}
+
+.third_company_name_box_element{
+    left: 58.26%;
+    right: 41.11%;
+}
+
+.four_company_name_box_element{
+    left: 76.04%;
+    right: 23.33%;
+}
+
+.art_img{
+    position: absolute;
+    height: 38px;
+    left: 9.44%;
+    right: 79.86%;
+    top: calc(50% - 38px/2 - 0.17px);
+}
+
+.ant_img{
+    position: absolute;
+    height: 38px;
+    left: 28.06%;
+    right: 62.22%;
+    top: calc(50% - 38px/2 - 0.17px);
+}
+
+.cap_img{
+    position: absolute;
+    height: 32px;
+    left: 46.39%;
+    right: 46.04%;
+    top: calc(50% - 32px/2 - 0.17px);
+}
+
+.cupcake_img{
+    position: absolute;
+    height: 38px;
+    left: 62.5%;
+    right: 27.64%;
+    top: calc(50% - 38px/2 - 0.17px);
+}
+
+.choc_img{
+    position: absolute;
+    height: 38px;
+    left: 80.28%;
+    right: 9.44%;
+    top: calc(50% - 38px/2 - 0.17px);
+}
