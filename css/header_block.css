@@ -1,0 +1,205 @@
+.header_block{
+    background-color: black;
+    position: absolute;
+    height: 659px;
+    width: 1440px;
+    left: 0px;
+    top: 68px;
+}
+
+.top_mainground{
+    background-color: black;
+    position: absolute;
+    width: 1440px;
+    height: 659px;
+    left: calc(50% - 1440px/2);
+    top: 68px;
+}
+
+.header_back_frame{
+    position: absolute;
+    height: 658.91px;
+    width: 1304px;
+    left: 68px;
+}
+
+.header_back_logo_frame{
+    position: absolute;
+    height: 659px;
+    width: 978px;
+    right: 25%;
+}
+
+.hall_image{
+    position: absolute;
+    height: 590.91px;
+    width: 978px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+}
+
+.header_social_nav_block{
+    background-color: #EBEBEB;
+    position: absolute;
+    width: 815px;
+    height: 68px;
+    top: 590.91px;
+}
+
+.header_social_nav_block{
+    position: absolute;
+    height: 68px;
+    width: 815px;
+    left: 0%;
+    right: 16.67%;
+    top: 590.91px;
+}
+
+.social_general_att{
+    position: absolute;
+    height: 68px;
+    top: 0.09px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 68px;
+    letter-spacing: 2.975px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.facebook_nav{ left: 0.37%; right: 88.59%; width: 90px; }
+.twitter_nav{ left: 15.59%; right: 14.72%; width: 76px; }
+.instagram_nav{ left: 29.82%; right: 57.91%; width: 100px; }
+.pinterest_nav{ left: 46.5%; right: 42.09%; width: 93px; }
+
+.header_back_frame_for_blocks{
+    position: absolute;
+    height: 659px;
+    width: 652px;
+    left: 652px;
+    top: 0px;
+}
+
+.header_back_block{
+    background-color: #99823D;
+    position: absolute;
+    width: 489px;
+    height: 329px;
+    top: 329px;
+    left: 25%;
+}
+
+.header_title_block{
+    background-color: #FFFFFF;
+    position: absolute;
+    height: 455px;
+    width: 584px;
+    right: 10.43%;
+    top: 68px;
+}
+
+.header_buttons_block{
+    position: absolute;
+    height: 68px;
+    width: 448px;
+    top: 318.91px;
+    left: 62.02px;
+}
+
+.header_title_text{
+    position: absolute;
+    height: 17px;
+    width: 142px;
+    top: 67px;
+    left: 68px;
+    color: #99823D;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 2.762500047683716px;
+    text-align: left;
+}
+
+.header_tagline_text{
+    position: absolute;
+    height: 135px;
+    width: 417px;
+    top: 86px;
+    left: 68px;
+    font-family: Teko;
+    font-style: normal;
+    font-size: 67px;
+    font-weight: 400;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header_text_description{
+    position: absolute;
+    height: 51px;
+    width: 435px;
+    top: 253px;
+    left: 68px;
+    color: #141414;
+    font-family: 'Open Sans', sans-serif; ;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.explore_block{
+    background-color: #99823D;
+    position: absolute;
+    height: 68px;
+    width: 216px;
+    top: 0.09px;
+    left: -0.02px;
+}
+
+.explore_button{
+    background-color: #99823D;
+    position: absolute;
+    height: 18px;
+    width: 75px;
+    top: 24px;
+    left: 72px;
+    color: #FFFFFF;
+    font-family: 'Open Sans' sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2.9749999046325684px;
+    text-align: center;
+}
+
+.lets_chat_block{
+    background-color: #000000;
+    position: absolute;
+    height: 68px;
+    width: 216px;
+    top: 0.09px;
+    left: 232.98px;
+}
+
+.lets_chat_button{
+    background-color: #000000;
+    position: absolute;
+    height: 18px;
+    width: 98px;
+    top: 24px;
+    left: 60px;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2.9749999046325684px;
+    text-align: center;
+}
