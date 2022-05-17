@@ -1,10 +1,20 @@
 .main_body{
-    background-color: #EBEBEB;
     position: absolute;
     height: 872px;
     width: 1440px;
     left: 62px;
     top: 795px;
+}
+
+.background_color{
+    position: absolute;
+    height: 872px;
+    width: 1378px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background-color: #EBEBEB;
+
 }
 
 .main_body_stuts_frame{

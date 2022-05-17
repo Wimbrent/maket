@@ -5,16 +5,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/header_nav.css">
+    <link rel="stylesheet" href="css/header_top_nav_block.css">
     <link rel="stylesheet" href="css/header_block.css">
     <link rel="stylesheet" href="css/slider_block.css">
     <link rel="stylesheet" href="css/main_body.css">
     <link rel="stylesheet" href="css/services_block.css">
     <link rel="stylesheet" href="css/footer_block.css">
     <link rel="stylesheet" href="css/footer_logo_block.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick.scss"/>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 
@@ -54,7 +56,7 @@
         </div>
     </header>
 
-    <nav class="header_nav_row">
+    <nav class="header_top_nav_block">
         <div class="header_nav_frame">
             <div class="header_nav_block">
                 <li class="header_nav_block_with_links">
@@ -81,6 +83,7 @@
 
 
     <div class="main_body">
+        <div class="background_color"></div>
         <div class="main_body_stuts_frame">
             <div class="first_square general__att_squares"></div>
             <div class="second_square general__att_squares"></div>
@@ -147,7 +150,7 @@
     <div class="slider_block">
         <div class="slider_container">
 
-            <div class="first_slide">
+            <div class="slide_item">
                 <img class="slide-image" src="/img/1.png" alt="">
                 <div class="first_line"></div>
                 <div class="second_line"></div>
@@ -165,7 +168,8 @@
                 </div>
             </div>
 
-            <div class="second_slide"><img src="/img/2.png" alt="">
+            <div class="slide_item">
+                <img class="slide-image" src="/img/2.png" alt="">
                 <div class="first_line"></div>
                 <div class="second_line"></div>
                 <div class="third_line"></div>
@@ -182,7 +186,8 @@
                 </div>
             </div>
 
-            <div class="third_slide"><img src="/img/3.png" alt="">
+            <div class="slide_item">
+                <img class="slide-image" src="/img/3.png" alt="">
                 <div class="first_line"></div>
                 <div class="second_line"></div>
                 <div class="third_line"></div>
@@ -198,6 +203,61 @@
                     <span class="slide_first_title_text">House Dining Area</span>
                 </div>
             </div>
+
+            <div class="slide_item">
+                <img class="slide-image" src="/img/4.png" alt="">
+                <div class="first_line"></div>
+                <div class="second_line"></div>
+                <div class="third_line"></div>
+                <div class="four_line"></div>
+                <div class="fifth_line"></div>
+                <div class="slide_news_block">
+                    <span class="slide_new_text">new</span>
+                </div>
+                <div class="slide_second_title_block">
+                    <span class="slide_second_title_text">Interior Design</span>
+                </div>
+                <div class="slide_first_title_block">
+                    <span class="slide_first_title_text">house living room</span>
+                </div>
+            </div>
+
+            <div class="slide_item">
+                <img class="slide-image" src="/img/5.png" alt="">
+                <div class="first_line"></div>
+                <div class="second_line"></div>
+                <div class="third_line"></div>
+                <div class="four_line"></div>
+                <div class="fifth_line"></div>
+                <div class="slide_news_block">
+                    <span class="slide_new_text">new</span>
+                </div>
+                <div class="slide_second_title_block">
+                    <span class="slide_second_title_text">Architecture</span>
+                </div>
+                <div class="slide_first_title_block">
+                    <span class="slide_first_title_text">ocean view house</span>
+                </div>
+            </div>
+
+            <div class="slide_item">
+                <img class="slide-image" src="/img/6.png" alt="">
+                <div class="first_line"></div>
+                <div class="second_line"></div>
+                <div class="third_line"></div>
+                <div class="four_line"></div>
+                <div class="fifth_line"></div>
+                <div class="slide_news_block">
+                    <span class="slide_new_text">new</span>
+                </div>
+                <div class="slide_second_title_block">
+                    <span class="slide_second_title_text">Interior Design</span>
+                </div>
+                <div class="slide_first_title_block">
+                    <span class="slide_first_title_text">House Dining Area</span>
+                </div>
+            </div>
+            
         </div>
 
         <div class="black_square"></div>
@@ -307,7 +367,6 @@
                 </li>
             </div>
 
-
             <div class="footer_powered">
                 <div class="black_footer"></div>
                 <div class="footer_second_nav_links">
@@ -320,17 +379,19 @@
                 </div>
                 <a href="" class="webflow_link low_nav_general">webflow.com</a>
             </div>
-
-            <div class="footer_newsletter_block">
-                <form action="#" method="post" enctype="multipart/form-data">
+            
+            <form novalide>
+                <div class="footer_newsletter_block">
                     <div class="footer_newsletter_frame">
-                        <input class="footer_newsletter_subscribe" placeholder="    Newsletter (Emter Email)" name="email" type="text" value="">
+                        <input class="footer_newsletter_subscribe" required placeholder="    Newsletter (Emter Email)" type="email" value="">
                         <button class="button_subscribe" type="submit">subscribe</button>
                     </div>
-                </form>
-            </div>
+                </div>
+            </form>    
         </div>
     </footer>>
-<script src="index.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
